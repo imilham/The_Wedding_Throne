@@ -11,7 +11,9 @@ body{
     margin: 0 auto;
 }
 /* Navigation section */
-
+.logoimage{
+    padding: 0 2rem;
+}
 
 nav{
     background-color: rgb(24, 53, 80);
@@ -111,3 +113,51 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+/* our_story */
+
+.our_story{
+    margin-top: 650px;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.button_readMore{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 10px;
+
+}
+
+button{
+    border-radius: 100px;
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+
+/* Our Team */
+.our_team{
+   margin-top: 3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem 5rem;
+   gap: 3rem;
+   background-color: rgb(24, 53, 80);
+   color: #fff;
+}
+.team_image_section{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 3rem;
+     height: px;
+}
+
+
